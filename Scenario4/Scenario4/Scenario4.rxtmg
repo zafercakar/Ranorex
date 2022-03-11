@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Scenario4"
+      id="eb7111c4-92f6-4cea-a5e2-2648d9e010c7"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Scenario4"
+      id="eb7111c4-92f6-4cea-a5e2-2648d9e010c7"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

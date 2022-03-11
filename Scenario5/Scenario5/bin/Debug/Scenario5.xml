@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Scenario5</name>
+    </assembly>
+    <members>
+        <member name="T:Scenario5.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Scenario5.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the Scenario5Repository repository.
+            </summary>
+        </member>
+        <member name="M:Scenario5.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Scenario5.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Scenario5.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Scenario5.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Scenario5.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Scenario5.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Scenario5.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Scenario5.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the Scenario5Repository repository.
+            </summary>
+        </member>
+        <member name="M:Scenario5.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Scenario5.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Scenario5.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Scenario5.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Scenario5.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Scenario5.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Scenario5.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Scenario5.Recording1.repo">
+            <summary>
+            Holds an instance of the Scenario5Repository repository.
+            </summary>
+        </member>
+        <member name="M:Scenario5.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Scenario5.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Scenario5.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Scenario5.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Scenario5.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Scenario5.Scenario5Repository">
+            <summary>
+            The class representing the Scenario5Repository element repository.
+            </summary>
+        </member>
+        <member name="M:Scenario5.Scenario5Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Scenario5Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Scenario5Repository element repository.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Scenario5Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Scenario5Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:Scenario5.Scenario5RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Scenario5.Scenario5RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Scenario5.Scenario5RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Scenario5RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Scenario5RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Scenario5RepositoryFolders.ApplicationUnderTestAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Scenario5RepositoryFolders.ApplicationUnderTestAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Scenario5RepositoryFolders.ApplicationUnderTestAppFolder.SearchIcon">
+            <summary>
+            The SearchIcon item.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Scenario5RepositoryFolders.ApplicationUnderTestAppFolder.SearchIconInfo">
+            <summary>
+            The SearchIcon item info.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Scenario5RepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn">
+            <summary>
+            The FvrtBtn item.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Scenario5RepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtnInfo">
+            <summary>
+            The FvrtBtn item info.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Scenario5RepositoryFolders.ApplicationUnderTestAppFolder.GirişYap">
+            <summary>
+            The GirişYap item.
+            </summary>
+        </member>
+        <member name="P:Scenario5.Scenario5RepositoryFolders.ApplicationUnderTestAppFolder.GirişYapInfo">
+            <summary>
+            The GirişYap item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

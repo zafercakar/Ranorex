@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.55s"
+		durationms="9545"
+		type="root"
+		rid="c255774d9aee08"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Zafer(Dad)"
+		rxversion="10.1.6.0"
+		host="DESKTOP-BT9AJDK"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="3520x1080"
+		timestamp="9.03.2022 23:06:15"
+		timestampiso="2022-03-09T20:06:15"
+		endtime="9.03.2022 23:06:25"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to run application 'trendyol.com'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.338"
+			timeRelativeToTestModuleStartTime="00:09.338"
+			timeWallClock="23:06:25"
+			time="00:09.338"
+			level="Warn"
+			category="Data"
+			errimg="images_Recordin_f6c0701d\Recordin_f6c0701d_fe1ea660_trace.jpg"
+			errthumb="images_Recordin_f6c0701d\Recordin_f6c0701d_fe1ea660_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>NewVariable
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.379"
+			timeRelativeToTestModuleStartTime="00:09.379"
+			timeWallClock="23:06:25"
+			time="00:09.379"
+			level="Info"
+			category="Application"
+			errimg="images_Recordin_f6c0701d\Recordin_f6c0701d_fe1ea660_trace.jpg"
+			errthumb="images_Recordin_f6c0701d\Recordin_f6c0701d_fe1ea660_trace_thumb.jpg">
+			<message>
+				Run application with file name from variable $NewVariable in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.424"
+			timeRelativeToTestModuleStartTime="00:09.424"
+			timeWallClock="23:06:25"
+			time="00:09.424"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_f6c0701d\Recordin_f6c0701d_fe1ea660_trace.jpg"
+			errthumb="images_Recordin_f6c0701d\Recordin_f6c0701d_fe1ea660_trace_thumb.jpg">
+			<message>
+				Failed to run application 'trendyol.com'.<br/>Sistem belirtilen dosyayı bulamıyor
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized, RunAppFlags runFlags)
+   konum: Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized)
+   konum: Scenario4.Recording1.Ranorex.Core.Testing.ITestModule.Run() c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs içinde: satır 96
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs içinde"
+				codeline="96"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,116 @@
+﻿<repository
+id="f329de96-8514-450b-9f46-f909b7130ce5"
+name="Scenario7Repository">
+	<codegen
+	classname="Scenario7Repository"
+	namespace="Scenario7">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="303b5f2e-e3cd-4e8f-9a90-e6b099629816"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="e85c5980-f670-44a9-9c45-af5b7c269c7f"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="a5cfec28-4b16-4bb7-8b13-b46dca8b72f9"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b7c6e766-a556-4d20-a812-15308d147fcc"
+			name="GirişYap1"
+			refimgid="fdbfe6eb-9c5c-4c33-9754-004ca2495f99"
+			refpath="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/div[1]/form/button/span[@innertext='Giriş Yap']"
+			robustPath="/dom[@domain='www.trendyol.com']//div[#'login-register']//form/button/span[@innertext='Giriş Yap']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/giris?cb=https%3A%2F%2Fwww.trendyol.com%2F']/?/?/span[@innertext='Giriş Yap']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="d17c46af-2b1f-4df3-9d17-b9dfc311304b"
+			isrooted="True"
+			name="AccountNavItemUserLoginContainer"
+			refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="4d2c89ed-21ec-4832-95cd-f65e8a87599b"
+				name="GirişYap"
+				refimgid="4230b14c-eb97-4459-8bf6-04ab56ced2ea"
+				refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/div[@innertext='Giriş Yap']"
+				robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//div[@innertext='Giriş Yap']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//div[@innertext='Giriş Yap']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="a023cd67-b064-4b6d-8785-b47ce6eed0df"
+				name="GirişYap2"
+				refimgid="367c3819-a7b6-4959-a0d5-8ad85203ad73"
+				refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]/p[@innertext='Giriş Yap']"
+				robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Giriş Yap']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="6fa7e923-6a1a-4722-861a-851ab95a56b3"
+				name="CıkışYap"
+				refimgid="f6e7e01f-04a3-498c-914b-c43cdd9278da"
+				refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[9]/p[@innertext='Çıkış Yap']"
+				robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Çıkış Yap']"
+				searchtimeout="30000ms">
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[2]/div/a[9]/p[@innertext='Çıkış Yap']
+				</item>
+				<item
+				addcaps="unknown,webelement,ptag"
+				capname="ptag"
+				id="aafa51f5-6623-4810-91ca-305ce3ea4ed5"
+				name="Hesabım"
+				refimgid="d9f1e7c5-cfd5-4e3e-ac25-babcab877d68"
+				refpath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/div[1]/p[@innertext='Hesabım']"
+				robustPath="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]"
+				searchtimeout="30000ms">
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Hesabım']
+				</item>
+				<basepath>
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='www.trendyol.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

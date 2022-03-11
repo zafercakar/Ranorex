@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Scenario4</name>
+    </assembly>
+    <members>
+        <member name="T:Scenario4.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Scenario4.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the Scenario4Repository repository.
+            </summary>
+        </member>
+        <member name="M:Scenario4.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Scenario4.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Scenario4.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Scenario4.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Scenario4.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Scenario4.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Scenario4.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Scenario4.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the Scenario4Repository repository.
+            </summary>
+        </member>
+        <member name="M:Scenario4.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Scenario4.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Scenario4.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Scenario4.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Scenario4.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Scenario4.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Scenario4.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Scenario4.Recording1.repo">
+            <summary>
+            Holds an instance of the Scenario4Repository repository.
+            </summary>
+        </member>
+        <member name="M:Scenario4.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Scenario4.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Scenario4.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Scenario4.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Scenario4.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Recording1.NewVariable">
+            <summary>
+            Gets or sets the value of variable NewVariable.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Recording1.NewVariable1">
+            <summary>
+            Gets or sets the value of variable NewVariable1.
+            </summary>
+        </member>
+        <member name="T:Scenario4.Scenario4Repository">
+            <summary>
+            The class representing the Scenario4Repository element repository.
+            </summary>
+        </member>
+        <member name="M:Scenario4.Scenario4Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Scenario4Repository element repository.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4Repository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="T:Scenario4.Scenario4RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize200200">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize200200 item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComMnresize200200Info">
+            <summary>
+            The HttpsCdnDsmcdnComMnresize200200 item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.HttpsWwwTrendyolComSepet">
+            <summary>
+            The HttpsWwwTrendyolComSepet item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.HttpsWwwTrendyolComSepetInfo">
+            <summary>
+            The HttpsWwwTrendyolComSepet item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.SearchIcon">
+            <summary>
+            The SearchIcon item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.SearchIconInfo">
+            <summary>
+            The SearchIcon item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkle">
+            <summary>
+            The SepeteEkle item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkleInfo">
+            <summary>
+            The SepeteEkle item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.SepeteEklendi">
+            <summary>
+            The SepeteEklendi item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.SepeteEklendiInfo">
+            <summary>
+            The SepeteEklendi item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.DivTag1">
+            <summary>
+            The DivTag1 item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.DivTag1Info">
+            <summary>
+            The DivTag1 item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.DivTag2">
+            <summary>
+            The DivTag2 item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.DivTag2Info">
+            <summary>
+            The DivTag2 item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ApplicationUnderTestAppFolder.ProductDetailApp">
+            <summary>
+            The ProductDetailApp folder.
+            </summary>
+        </member>
+        <member name="T:Scenario4.Scenario4RepositoryFolders.ProductDetailAppFolder">
+            <summary>
+            The ProductDetailAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Scenario4.Scenario4RepositoryFolders.ProductDetailAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ProductDetailApp  folder.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ProductDetailAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ProductDetailAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ProductDetailAppFolder.SomeImgTag">
+            <summary>
+            The SomeImgTag item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ProductDetailAppFolder.SomeImgTagInfo">
+            <summary>
+            The SomeImgTag item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ProductDetailAppFolder.HttpsCdnDsmcdnComTy329ProductMed">
+            <summary>
+            The HttpsCdnDsmcdnComTy329ProductMed item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ProductDetailAppFolder.HttpsCdnDsmcdnComTy329ProductMedInfo">
+            <summary>
+            The HttpsCdnDsmcdnComTy329ProductMed item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ProductDetailAppFolder.HttpsCdnDsmcdnComTy55ProductMedi">
+            <summary>
+            The HttpsCdnDsmcdnComTy55ProductMedi item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ProductDetailAppFolder.HttpsCdnDsmcdnComTy55ProductMediInfo">
+            <summary>
+            The HttpsCdnDsmcdnComTy55ProductMedi item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ProductDetailAppFolder.SepeteEkle">
+            <summary>
+            The SepeteEkle item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ProductDetailAppFolder.SepeteEkleInfo">
+            <summary>
+            The SepeteEkle item info.
+            </summary>
+        </member>
+        <member name="T:Scenario4.Scenario4RepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Scenario4.Scenario4RepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ExplorerAppFolder.RanorexStudio2CalışanPencere">
+            <summary>
+            The RanorexStudio2CalışanPencere item.
+            </summary>
+        </member>
+        <member name="P:Scenario4.Scenario4RepositoryFolders.ExplorerAppFolder.RanorexStudio2CalışanPencereInfo">
+            <summary>
+            The RanorexStudio2CalışanPencere item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

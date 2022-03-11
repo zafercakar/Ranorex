@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="10.41s"
+		durationms="10411"
+		type="root"
+		rid="3dc99268891bc9f"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Zafer(Dad)"
+		rxversion="10.1.6.0"
+		host="DESKTOP-BT9AJDK"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="3520x1080"
+		timestamp="9.03.2022 23:46:15"
+		timestampiso="2022-03-09T20:46:15"
+		endtime="9.03.2022 23:46:26"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.611"
+			timeRelativeToTestModuleStartTime="00:09.611"
+			timeWallClock="23:46:25"
+			time="00:09.611"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NewVariable, NewVariable1
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.664"
+			timeRelativeToTestModuleStartTime="00:09.664"
+			timeWallClock="23:46:25"
+			time="00:09.664"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.trendyol.com' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.965"
+			timeRelativeToTestModuleStartTime="00:09.965"
+			timeWallClock="23:46:25"
+			time="00:09.965"
+			level="Info"
+			category="Mouse">
+			<message>
+				(//a[@class='category-header'])[2]<br/>Mouse Left Click at {X=0,Y=0}.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs"
+				codeline="113"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

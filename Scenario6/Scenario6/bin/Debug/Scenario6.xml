@@ -1,0 +1,384 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Scenario6</name>
+    </assembly>
+    <members>
+        <member name="T:Scenario6.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Scenario6.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the Scenario6Repository repository.
+            </summary>
+        </member>
+        <member name="M:Scenario6.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Scenario6.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Scenario6.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Scenario6.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Scenario6.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Scenario6.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Scenario6.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Scenario6.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the Scenario6Repository repository.
+            </summary>
+        </member>
+        <member name="M:Scenario6.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Scenario6.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Scenario6.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Scenario6.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Scenario6.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Scenario6.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Scenario6.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Scenario6.Recording1.repo">
+            <summary>
+            Holds an instance of the Scenario6Repository repository.
+            </summary>
+        </member>
+        <member name="M:Scenario6.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Scenario6.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Scenario6.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Scenario6.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Scenario6.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Recording1.NewVariable">
+            <summary>
+            Gets or sets the value of variable NewVariable.
+            </summary>
+        </member>
+        <member name="T:Scenario6.Scenario6Repository">
+            <summary>
+            The class representing the Scenario6Repository element repository.
+            </summary>
+        </member>
+        <member name="M:Scenario6.Scenario6Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Scenario6Repository element repository.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:Scenario6.Scenario6RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.Sepetim">
+            <summary>
+            The Sepetim item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.SepetimInfo">
+            <summary>
+            The Sepetim item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.SonKullanmaTarihi">
+            <summary>
+            The SonKullanmaTarihi item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.SonKullanmaTarihiInfo">
+            <summary>
+            The SonKullanmaTarihi item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.CardCvv">
+            <summary>
+            The CardCvv item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.CardCvvInfo">
+            <summary>
+            The CardCvv item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.GirişYap">
+            <summary>
+            The GirişYap item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.GirişYapInfo">
+            <summary>
+            The GirişYap item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.LoginEmail">
+            <summary>
+            The LoginEmail item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.LoginEmailInfo">
+            <summary>
+            The LoginEmail item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.HttpsWwwTrendyolComSepet">
+            <summary>
+            The HttpsWwwTrendyolComSepet item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.HttpsWwwTrendyolComSepetInfo">
+            <summary>
+            The HttpsWwwTrendyolComSepet item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.wait">
+            <summary>
+            The wait item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.waitInfo">
+            <summary>
+            The wait item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.SepetiOnayla">
+            <summary>
+            The SepetiOnayla item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.SepetiOnaylaInfo">
+            <summary>
+            The SepetiOnayla item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.PLayout">
+            <summary>
+            The PLayout folder.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.ApplicationUnderTestAppFolder.LoginRegister">
+            <summary>
+            The LoginRegister folder.
+            </summary>
+        </member>
+        <member name="T:Scenario6.Scenario6RepositoryFolders.PLayoutFolder">
+            <summary>
+            The PLayoutFolder folder.
+            </summary>
+        </member>
+        <member name="M:Scenario6.Scenario6RepositoryFolders.PLayoutFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PLayout  folder.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.PLayoutFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.PLayoutFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.PLayoutFolder.KaydetVeDevamEt">
+            <summary>
+            The KaydetVeDevamEt item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.PLayoutFolder.KaydetVeDevamEtInfo">
+            <summary>
+            The KaydetVeDevamEt item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.PLayoutFolder.PCheckboxText">
+            <summary>
+            The PCheckboxText item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.PLayoutFolder.PCheckboxTextInfo">
+            <summary>
+            The PCheckboxText item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.PLayoutFolder.KartBilgileri">
+            <summary>
+            The KartBilgileri item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.PLayoutFolder.KartBilgileriInfo">
+            <summary>
+            The KartBilgileri item info.
+            </summary>
+        </member>
+        <member name="T:Scenario6.Scenario6RepositoryFolders.LoginRegisterFolder">
+            <summary>
+            The LoginRegisterFolder folder.
+            </summary>
+        </member>
+        <member name="M:Scenario6.Scenario6RepositoryFolders.LoginRegisterFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginRegister  folder.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.LoginRegisterFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.LoginRegisterFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.LoginRegisterFolder.GirişYap2">
+            <summary>
+            The GirişYap2 item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.LoginRegisterFolder.GirişYap2Info">
+            <summary>
+            The GirişYap2 item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.LoginRegisterFolder.GirişYap1">
+            <summary>
+            The GirişYap1 item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.LoginRegisterFolder.GirişYap1Info">
+            <summary>
+            The GirişYap1 item info.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.LoginRegisterFolder.UEyeOl">
+            <summary>
+            The UEyeOl item.
+            </summary>
+        </member>
+        <member name="P:Scenario6.Scenario6RepositoryFolders.LoginRegisterFolder.UEyeOlInfo">
+            <summary>
+            The UEyeOl item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

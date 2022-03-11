@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="25.57s"
+		durationms="25568"
+		type="root"
+		rid="17a4e4c633f50c2a"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Zafer(Dad)"
+		rxversion="10.1.6.0"
+		host="DESKTOP-BT9AJDK"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="3520x1080"
+		timestamp="10.03.2022 07:09:40"
+		timestampiso="2022-03-10T04:09:40"
+		endtime="10.03.2022 07:10:06"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.868"
+			timeRelativeToTestModuleStartTime="00:10.868"
+			timeWallClock="07:09:51"
+			time="00:10.868"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>NewVariable, NewVariable1
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.915"
+			timeRelativeToTestModuleStartTime="00:10.915"
+			timeWallClock="07:09:51"
+			time="00:10.915"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.trendyol.com' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs"
+				codeline="108"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.284"
+			timeRelativeToTestModuleStartTime="00:11.284"
+			timeWallClock="07:09:52"
+			time="00:11.284"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Text' at 38;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'auto-complete-app']//input[@type='text']"
+				itempath=".//div[#'auto-complete-app']//input[@type='text']"
+				fullname="Scenario4Repository.ApplicationUnderTest.Text"
+				id="d7e223c562a94e938e9ab1bce851fe78"
+				timeout="60000"
+				codefile="c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.500"
+			timeRelativeToTestModuleStartTime="00:18.500"
+			timeWallClock="07:09:59"
+			time="00:18.500"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'nk3285507' with focus on 'ApplicationUnderTest.Text'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'auto-complete-app']//input[@type='text']"
+				itempath=".//div[#'auto-complete-app']//input[@type='text']"
+				fullname="Scenario4Repository.ApplicationUnderTest.Text"
+				id="d7e223c562a94e938e9ab1bce851fe78"
+				timeout="60000"
+				codefile="c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs"
+				codeline="116"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.401"
+			timeRelativeToTestModuleStartTime="00:19.401"
+			timeWallClock="07:10:00"
+			time="00:19.401"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SearchIcon' at 6;8.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'auto-complete-app']//i"
+				itempath=".//div[#'auto-complete-app']//i"
+				fullname="Scenario4Repository.ApplicationUnderTest.SearchIcon"
+				id="b0abe3d849fa42af8855877ff622fb37"
+				timeout="60000"
+				codefile="c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs"
+				codeline="120"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.426"
+			timeRelativeToTestModuleStartTime="00:20.426"
+			timeWallClock="07:10:01"
+			time="00:20.426"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SepeteEkle' at 92;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'search-app']/div/div[1]/div[2]/div[3]/div/div[1]/div[1]/div[2]/button/div[@innertext='Sepete Ekle']"
+				itempath=".//div[#'search-app']/div/div[1]/div[2]/div[3]/div/div[1]/div[1]/div[2]/button/div[@innertext='Sepete Ekle']"
+				fullname="Scenario4Repository.ApplicationUnderTest.SepeteEkle"
+				id="b6a9c9e455ae4c1eb372e3da5813d6f0"
+				timeout="60000"
+				codefile="c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs"
+				codeline="124"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.127"
+			timeRelativeToTestModuleStartTime="00:25.127"
+			timeWallClock="07:10:05"
+			time="00:25.127"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ApplicationUnderTest.HttpsWwwTrendyolComSepet'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']"
+				itempath=".//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']"
+				fullname="Scenario4Repository.ApplicationUnderTest.HttpsWwwTrendyolComSepet"
+				id="7b38d9570d874debab69266321e24f53"
+				timeout="60000"
+				codefile="c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs"
+				codeline="128"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.456"
+			timeRelativeToTestModuleStartTime="00:25.456"
+			timeWallClock="07:10:06"
+			time="00:25.456"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'HttpsWwwTrendyolComSepet' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']"
+				itempath=".//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']"
+				fullname="Scenario4Repository.ApplicationUnderTest.HttpsWwwTrendyolComSepet"
+				id="7b38d9570d874debab69266321e24f53"
+				timeout="60000"
+				codefile="c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs"
+				codeline="129"
+				loglvl="Success"
+				itemindex="5">
+			</metainfo>
+		</item>
+	</activity>
+</report>

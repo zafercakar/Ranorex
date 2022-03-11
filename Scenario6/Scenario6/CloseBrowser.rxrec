@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e57e14cf-7625-4f2d-aa41-5f0f5d855eca"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Scenario6">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="15a948e1-6e46-44da-b681-5a806df90eba">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ee61da31-70cc-42f7-b658-eccc4145274e"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="f7132eaf-a900-4be6-b250-1b03d3792376"
+	name="Scenario6Repository"
+	relativepath="Scenario6Repository.rxrep">
+		<codegen
+		classname="Scenario6Repository"
+		namespace="Scenario6">
+		</codegen>
+		<rootfolder
+		id="3530522d-8b76-4b5a-822a-0ebd69aac07c"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.26s"
+		durationms="11256"
+		type="root"
+		rid="2a36f3e2f6ba3210"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Zafer(Dad)"
+		rxversion="10.1.6.0"
+		host="DESKTOP-BT9AJDK"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="3520x1080"
+		timestamp="9.03.2022 23:05:08"
+		timestampiso="2022-03-09T20:05:08"
+		endtime="9.03.2022 23:05:19"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to run application 'yourapp'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.990"
+			timeRelativeToTestModuleStartTime="00:10.990"
+			timeWallClock="23:05:19"
+			time="00:10.990"
+			level="Info"
+			category="Application"
+			errimg="images_Recordin_822c701d\Recordin_822c701d_b3928db1_trace.jpg"
+			errthumb="images_Recordin_822c701d\Recordin_822c701d_b3928db1_trace_thumb.jpg">
+			<message>
+				Run application 'yourapp' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.101"
+			timeRelativeToTestModuleStartTime="00:11.101"
+			timeWallClock="23:05:19"
+			time="00:11.101"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_822c701d\Recordin_822c701d_c1fbe0e9_trace.jpg"
+			errthumb="images_Recordin_822c701d\Recordin_822c701d_c1fbe0e9_trace_thumb.jpg">
+			<message>
+				Failed to run application 'yourapp'.<br/>Sistem belirtilen dosyayı bulamıyor
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized, RunAppFlags runFlags)
+   konum: Ranorex.Host.RunApplication(String fileName, String arguments, String workingDirectory, Boolean maximized)
+   konum: Scenario4.Recording1.Ranorex.Core.Testing.ITestModule.Run() c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs içinde: satır 83
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Zafer(Dad)\Documents\Ranorex\RanorexStudio Projects\Scenario4\Scenario4\Recording1.cs içinde"
+				codeline="83"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
